@@ -72,7 +72,7 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
           )}
         >
           <a href="#home" className="pl-1 pr-1.5 font-mono text-sm text-foreground-muted transition-colors hover:text-foreground">
-            <span className="text-primary">&lt;</span>BS<span className="text-primary"> /&gt;</span>
+            <span className="text-primary">&lt;</span>B<span className="text-primary"> /&gt;</span>
           </a>
           <div className="mx-1 h-4 w-px bg-border" />
           {navItems.map((item) => (
@@ -104,7 +104,7 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
           )}
         >
           <span className="font-mono text-sm text-foreground-muted">
-            <span className="text-primary">&lt;</span>BS<span className="text-primary"> /&gt;</span>
+            <span className="text-primary">&lt;</span>B<span className="text-primary"> /&gt;</span>
           </span>
         </motion.a>
       </AnimatePresence>
