@@ -71,6 +71,10 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
             className
           )}
         >
+          <a href="#home" className="pl-1 pr-1.5 font-mono text-sm text-foreground-muted transition-colors hover:text-foreground">
+            <span className="text-primary">&lt;</span>BS<span className="text-primary"> /&gt;</span>
+          </a>
+          <div className="mx-1 h-4 w-px bg-border" />
           {navItems.map((item) => (
             <a
               key={item.name}
@@ -95,15 +99,12 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
           animate={{ y: visible || isMobileOpen ? 0 : -100, opacity: visible || isMobileOpen ? 1 : 0 }}
           transition={{ duration: 0.2 }}
           className={cn(
-            "fixed left-4 top-4 z-[5001] flex h-12 items-center gap-2 rounded-2xl px-3.5 md:hidden",
+            "fixed left-4 top-4 z-[5001] flex h-12 items-center rounded-2xl px-4 md:hidden",
             "border border-border bg-surface/90 backdrop-blur-md shadow-lg shadow-primary/5"
           )}
         >
-          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-dark font-display text-sm font-bold text-white">
-            B
-          </span>
-          <span className="font-display text-sm font-semibold tracking-tight text-foreground">
-            Bharti
+          <span className="font-mono text-sm text-foreground-muted">
+            <span className="text-primary">&lt;</span>BS<span className="text-primary"> /&gt;</span>
           </span>
         </motion.a>
       </AnimatePresence>
