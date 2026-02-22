@@ -87,6 +87,27 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
         </motion.nav>
       </AnimatePresence>
 
+      {/* Mobile logo */}
+      <AnimatePresence mode="wait">
+        <motion.a
+          href="#home"
+          initial={{ opacity: 1, y: -100 }}
+          animate={{ y: visible || isMobileOpen ? 0 : -100, opacity: visible || isMobileOpen ? 1 : 0 }}
+          transition={{ duration: 0.2 }}
+          className={cn(
+            "fixed left-4 top-4 z-[5001] flex h-12 items-center gap-2 rounded-2xl px-3.5 md:hidden",
+            "border border-border bg-surface/90 backdrop-blur-md shadow-lg shadow-primary/5"
+          )}
+        >
+          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-primary-dark font-display text-sm font-bold text-white">
+            B
+          </span>
+          <span className="font-display text-sm font-semibold tracking-tight text-foreground">
+            Bharti
+          </span>
+        </motion.a>
+      </AnimatePresence>
+
       {/* Mobile hamburger button */}
       <AnimatePresence mode="wait">
         <motion.button
