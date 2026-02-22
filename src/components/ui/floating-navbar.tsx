@@ -71,7 +71,7 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
             className
           )}
         >
-          <a href="#home" className="pl-1 pr-1.5 font-mono text-sm text-foreground-muted transition-colors hover:text-foreground">
+          <a href="#home" className="pl-1 pr-1.5 font-mono text-base font-semibold text-foreground-muted transition-colors hover:text-foreground">
             <span className="text-secondary">&lt;</span>B<span className="text-secondary"> /&gt;</span>
           </a>
           <div className="mx-1 h-4 w-px bg-border" />
@@ -103,7 +103,7 @@ export function FloatingNav({ navItems, className }: FloatingNavProps) {
             "border border-border bg-surface/90 backdrop-blur-md shadow-lg shadow-primary/5"
           )}
         >
-          <span className="font-mono text-sm text-foreground-muted">
+          <span className="font-mono text-base font-semibold text-foreground-muted">
             <span className="text-secondary">&lt;</span>B<span className="text-secondary"> /&gt;</span>
           </span>
         </motion.a>
