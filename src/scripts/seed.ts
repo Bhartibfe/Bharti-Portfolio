@@ -182,7 +182,7 @@ async function seed() {
         name: "Bharti Sharma",
         title: "Software Engineer",
         tagline: "I don't just build UIs — I ship products. React, TypeScript, and AI-augmented dev workflows.",
-        bio: "I'm a software engineer who thinks in products, not components. Currently building enterprise-grade frontend for a Government Defense Department at VDOIT Technologies — handling auth flows with JWTs, encrypted APIs, and strict security requirements. I use AI coding tools like Claude Code, Cursor, and Copilot daily to ship faster without cutting corners. B.E. (Electrical & Electronics) from UIET, Panjab University.",
+        bio: "I'm a software engineer who thinks in products, not components. Currently building enterprise-grade frontend for a Government Defense Department at VDOIT Technologies — handling auth flows with JWTs, encrypted APIs, and strict security requirements. I use AI coding tools like Claude Code, Cursor, and Copilot daily to ship faster without cutting corners. B.E. graduate in Electrical & Electronics Engineering.",
         avatarUrl: "/bharti-avatar.jpg",
         resumeUrl: "/Bharti-Sharma-Resume-2026.pdf",
       },
@@ -200,7 +200,7 @@ async function seed() {
       seo: {
         metaTitle: "Bharti Sharma | Frontend Web Developer",
         metaDescription:
-          "Portfolio of Bharti Sharma — Frontend Web Developer & B.E. student at Panjab University. Specializing in React, Next.js, and TypeScript.",
+          "Software Engineer specializing in React, Next.js, and TypeScript. Building enterprise-grade frontend applications with modern web technologies and AI-augmented workflows.",
         siteUrl: "http://localhost:3000",
       },
       skillIconSlugs: [

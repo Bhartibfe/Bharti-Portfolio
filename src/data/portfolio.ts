@@ -11,7 +11,7 @@ export const personalInfo = {
   name: "Bharti Sharma",
   title: "Software Engineer",
   tagline: "I don't just build UIs — I ship products. React, TypeScript, and AI-augmented dev workflows.",
-  bio: "I'm a software engineer who thinks in products, not components. Currently building enterprise-grade frontend for a Government Defense Department at VDOIT Technologies — handling auth flows with JWTs, encrypted APIs, and strict security requirements. I use AI coding tools like Claude Code, Cursor, and Copilot daily to ship faster without cutting corners. B.E. (Electrical & Electronics) from UIET, Panjab University.",
+  bio: "I'm a software engineer who thinks in products, not components. Currently building enterprise-grade frontend for a Government Defense Department at VDOIT Technologies — handling auth flows with JWTs, encrypted APIs, and strict security requirements. I use AI coding tools like Claude Code, Cursor, and Copilot daily to ship faster without cutting corners. B.E. graduate in Electrical & Electronics Engineering.",
   resumeUrl: "/Bharti-Sharma-Resume-2026.pdf",
 };
 

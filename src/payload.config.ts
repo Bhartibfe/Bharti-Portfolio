@@ -17,6 +17,12 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
+  admin: {
+    user: Users.slug,
+    importMap: {
+      baseDir: path.resolve(dirname),
+    },
+  },
   editor: lexicalEditor(),
   collections: [Users, Media, Experiences, Projects, Skills],
   globals: [SiteSettings, SocialLinks],
