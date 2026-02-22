@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="100" fill="#151526"/>
+  <circle cx="100" cy="80" r="35" fill="#8B5CF6" opacity="0.3"/>
+  <path d="M100 125c-30 0-55 15-55 35v10h110v-10c0-20-25-35-55-35z" fill="#8B5CF6" opacity="0.3"/>
+  <text x="100" y="105" text-anchor="middle" fill="#A78BFA" font-size="14" font-family="system-ui">BS</text>
+</svg>
