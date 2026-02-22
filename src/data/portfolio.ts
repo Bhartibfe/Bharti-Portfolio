@@ -146,7 +146,7 @@ export const allSkillIcons = [
   "github",
   "figma",
   "vercel",
-  "amazons3",
+  "html5",
   "anthropic",
   "jira",
 ];

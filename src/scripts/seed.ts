@@ -217,7 +217,7 @@ async function seed() {
         { slug: "github" },
         { slug: "figma" },
         { slug: "vercel" },
-        { slug: "amazons3" },
+        { slug: "html5" },
         { slug: "anthropic" },
         { slug: "jira" },
       ],
