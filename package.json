@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cross-env NODE_OPTIONS=\"--import tsx\" payload generate:importmap && next build",
+    "generate:importmap": "cross-env NODE_OPTIONS=\"--import tsx\" payload generate:importmap",
     "start": "next start",
     "lint": "eslint",
     "seed": "node --env-file=.env --import tsx src/scripts/seed.ts"
@@ -30,6 +31,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
